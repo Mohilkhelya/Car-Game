@@ -60,19 +60,22 @@ body{
     background-color: rgb(0, 0, 0);
     position: relative;
     margin: auto;
+    border: 5px solid rgb(204, 129, 129);
 }
 
 .startScreen {
     position: absolute;
-    top: 40%;
-    left: 36%;
+    top: 20%;
+    left: 25%;
     text-align: center;
-    border: 3px solid firebrick;
+    border: 5px solid rgb(204, 129, 129);
     padding: 20px;
     margin: auto;
-    background-color:black;
-    width: 300px;
+    background-color:rgb(0, 0, 0);
+    width: 50%;
+    font-family: cursive;
     font-size: 20px;
+    border-radius: 100px;
     z-index: 1000;
-    color: rgb(243, 126, 126);
+    color: rgb(255, 255, 255);
 }
