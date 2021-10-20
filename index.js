@@ -10,7 +10,7 @@ let keys = {ArrowUp:false,
             ArrowDown:false, 
             ArrowRight:false,
             ArrowLeft:false,
-        };
+        };    
 
 startScreen.addEventListener("click", start);
 document.addEventListener("keydown" ,pressOn);
@@ -50,7 +50,7 @@ function moveEnemy(car){
 
         if(item.y >= 1500){
             item.y = -750; 
-            item.style.left = Math.floor(Math.random() * 150) + "px";     
+            item.style.left = Math.floor(Math.random() * 350) + "px";     
         }
         item.y += player.speed;
         item.style.top = item.y + "px";
@@ -138,7 +138,7 @@ gameArea.innerHTML = ""
     enemy.classList.add("enemy");
     enemy.y = ((x + 1) * 750) * -1;
     enemy.style.top = enemy.y + "px";
-    enemy.style.left = Math.floor(Math.random() * 150) + "px";
+    enemy.style.left = Math.floor(Math.random() * 350) + "px";
     gameArea.appendChild(enemy);
   }
    

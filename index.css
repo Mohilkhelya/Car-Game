@@ -48,13 +48,13 @@ body{
     position: absolute;
     height: 100px;
     width: 10px;
-    margin-left: 95px ;
+    margin-left: 195px ;
     background-color: white;
 }
 
 
 .gameArea{
-    width: 200px;
+    width: 400px;
     height: 100vh;
     overflow: hidden;       
     background-color: rgb(0, 0, 0);
@@ -64,8 +64,8 @@ body{
 
 .startScreen {
     position: absolute;
-    top: 15%;
-    left:37.8%;
+    top: 40%;
+    left: 36%;
     text-align: center;
     border: 3px solid firebrick;
     padding: 20px;
